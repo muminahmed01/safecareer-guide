@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://safecareer-guide.vercel.app/sitemap.xml

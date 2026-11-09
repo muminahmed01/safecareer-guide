@@ -276,12 +276,22 @@
           <a href="/guides/nordic.html">Study in Norway and Finland for Free</a>
           <a href="/guides/ai-majors.html">Safest College Majors from AI Automation</a>
           <a href="/guides/jobs-europe.html">Best Jobs After Graduation in Europe</a>
+          <a href="/guides/erasmus-mundus.html">Erasmus Mundus Scholarships 2026–27</a>
+          <a href="/guides/erasmus-noha.html">Erasmus Mundus NOHA Scholarship 2027</a>
         </nav>
         <div>
           Guides are educational information, not immigration or financial advice.<br />
           Always confirm fees, deadlines and visa rules with the university and the official programme pages.
         </div>
       </div>
-    </footer>
+    </footer>    <script>
+      // Header topic buttons go to the homepage with that topic selected.
+      document.querySelectorAll("[data-nav]").forEach(function (b) {
+        b.addEventListener("click", function () {
+          location.href = b.dataset.nav === "all" ? "/#articles" : "/#topic-" + b.dataset.nav;
+        });
+      });
+    </script>
+
   </body>
 </html>

@@ -1,1 +1,1 @@
-{"redirects":[{"destination":"https://safecareer-guide.pages.dev/:path*","permanent":true,"source":"/:path*"}]}
+{"redirects":[{"destination":"https://safecareer-guide.pages.dev/","permanent":true,"source":"/"},{"destination":"https://safecareer-guide.pages.dev/:path*","permanent":true,"source":"/:path*"}]}
